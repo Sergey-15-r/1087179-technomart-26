@@ -72,39 +72,38 @@
               <form method="get" action="https://echo.htmlacademy.ru">
                 <fieldset>
                   <legend>Производители:</legend>
-                  <ul>
+                  <ul class="list-firm">
                     <li>
-                      <input type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
-                      <label for="filter-baxter-of-california">BOSCH</label>
+                      <input type="checkbox" name="firm1" id="ch1" value="Bosch" checked>
+                      <label for="ch1">Bosch</label>
                     </li>
                     <li>
-                      <input type="checkbox" name="mr-natty" id="filter-mr-natty">
-                      <label for="filter-mr-natty">ИНТЕРСКОЛ</label>
+                      <input type="checkbox" name="firm2" id="ch2" value="Интерскол">
+                      <label for="ch2">Интерскол</label>
                     </li>
                     <li>
-                      <input type="checkbox" name="suavecito" id="filter-suavecito" checked>
-                    <label for="filter-suavecito">MAKITA</label>
+                      <input type="checkbox" name="firm3" id="ch3" value="Makita" checked>
+                      <label for="ch3">Makita</label>
                     </li>
                     <li>
-                      <input type="checkbox" name="malin-goetz" id="filter-malin-goetz">
-                      <label for="filter-malin-goetz">DEWALT</label>
+                      <input type="checkbox" name="firm4" id="ch4" value="Dewalt">
+                      <label for="ch4">Dewalt</label>
                     </li>
                     <li>
-                      <input type="checkbox" name="murrays" id="filter-murrays">
-                      <label for="filter-murrays">HITACHI</label>
+                      <input type="checkbox" name="firm5" id="ch5" value="Hitachi">
+                      <label for="ch5">Hitachi</label>
                     </li>
-                  </ul>
                 </fieldset>
                 <fieldset>
                     <legend>ПИТАНИЕ:</legend>
                     <ul>
                       <li>
-                        <input type="radio" name="product-group" value="shaving" id="filter-shave">
-                        <label for="filter-shave">АККУМУЛЯТОРНЫЕ</label>
-                      </li>
+                          <input type="radio" name="supply" id="rd1" value="accumulator" checked>
+                          <label for="rd1">Аккумуляторные</label>
+                      </li >
                       <li>
-                        <input type="radio" name="product-group" value="hair-care" id="filter-care" checked>
-                        <label for="filter-care">СЕТЕВЫЕ</label>
+                          <input type="radio" name="supply" id="rd2" value="lan">
+                          <label for="rd2">Сетевые</label>
                       </li>
                     </ul>
                   </fieldset>
