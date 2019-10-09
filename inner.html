@@ -65,29 +65,53 @@
           </ul>
           </div>
           <div>
-            <h1>ПЕРФОРАТОРЫ</h1>
+            <h2>ПЕРФОРАТОРЫ</h2>
           </div>
       <div>
-      <div>
            <div>
-               <h2>ПРОИЗВОДИТЕЛИ:</h2>
-               <ul>
-                 <li><img src="img\checkbox-on.svg">BOSCH</li>
-                 <li><img src="img\checkbox-off.svg">ИНТЕРСКОЛ</li>
-                 <li><img src="img\checkbox-on.svg">MAKITA</li>
-                 <li><img src="img\checkbox-off.svg">DEWALT</li>
-                 <li><img src="img\checkbox-off.svg">HITACHI</li>
-               </ul>
-           </div>
-           <div>
-             <h2>ПИТАНИЕ:</h2>
-             <ul>
-               <li><img src="img\radio-on.svg">АККУМУЛЯТОРНЫЕ</li>
-               <li><img src="img\radio-off.svg">СЕТЕВЫЕ</li>
-             </ul>
-           </div>
-          <div>
-             <button type="button">ПОКАЗАТЬ</button>
+              <form method="get" action="https://echo.htmlacademy.ru">
+                <fieldset>
+                  <legend>Производители:</legend>
+                  <ul>
+                    <li>
+                      <input type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
+                      <label for="filter-baxter-of-california">BOSCH</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="mr-natty" id="filter-mr-natty">
+                      <label for="filter-mr-natty">ИНТЕРСКОЛ</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="suavecito" id="filter-suavecito" checked>
+                    <label for="filter-suavecito">MAKITA</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="malin-goetz" id="filter-malin-goetz">
+                      <label for="filter-malin-goetz">DEWALT</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="murrays" id="filter-murrays">
+                      <label for="filter-murrays">HITACHI</label>
+                    </li>
+                  </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>ПИТАНИЕ:</legend>
+                    <ul>
+                      <li>
+                        <input type="radio" name="product-group" value="shaving" id="filter-shave">
+                        <label for="filter-shave">АККУМУЛЯТОРНЫЕ</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="product-group" value="hair-care" id="filter-care" checked>
+                        <label for="filter-care">СЕТЕВЫЕ</label>
+                      </li>
+                    </ul>
+                  </fieldset>
+                  <button type="submit">
+                    Показать
+                  </button>
+                </form>
            </div>
           </div>
           <div>
