@@ -26,6 +26,7 @@ body{
 }
 .service-delivery{
   background-color: #f4f7f9;
+  color:black;
 }
 
 .first-footer-wrapper {
@@ -33,4 +34,7 @@ body{
 }
 .second-footer-wrapper{
   background-color: #293449;
+}
+.info{
+  color: black;
 }
