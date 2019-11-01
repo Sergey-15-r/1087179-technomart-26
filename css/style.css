@@ -1367,8 +1367,6 @@ button .credit-button:focus .credit {
 
 .footer-social {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 130px;
   list-style: none;
 }
@@ -1376,6 +1374,7 @@ button .credit-button:focus .credit {
 .footer-social li {
   min-width: 42px;
   min-height: 42px;
+  margin-right: 2px;
   display: flex;
   align-items: center;
   justify-content: center;
