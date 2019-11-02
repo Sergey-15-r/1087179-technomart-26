@@ -85,6 +85,8 @@ a {
 }
 
 .top-logo {
+  position: absolute;
+  min-height: 42px;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   text-align: center;
@@ -105,6 +107,7 @@ a {
 }
 
 .search {
+  margin-left: 220px;
   position: relative;
 }
 
@@ -152,6 +155,12 @@ a {
   color: black;
 }
 
+.searchBox:focus:-ms-input-placeholder {
+  color: black;
+}
+
+
+
 .searchBox:focus {
   background-color: #fff;
 }
@@ -195,8 +204,8 @@ a {
 .order-navigation a {
   display: block;
   text-align: center;
-  padding-top: 11px;
-  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-bottom: 13px;
   color: #fff;
 }
 
@@ -399,7 +408,7 @@ a {
 }
 
 .main-navigation-wrapper {
-  padding-top: 49px;
+  padding-top: 47px;
   padding-bottom: 60px;
   background-color: #f4f7f9;
 }
@@ -431,7 +440,7 @@ a {
   flex-direction: column;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-top: 59px;
+  margin-top: 60px;
   margin-bottom: 56px;
 }
 
@@ -745,7 +754,7 @@ a {
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: #f9f5f0;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 .popular-button {
@@ -1008,7 +1017,7 @@ a {
 
 .service-delivery {
   padding-top: 37px;
-  margin-bottom: 50px;
+  margin-bottom: 46px;
   background-color: #f4f7f9;
   color: black;
 }
@@ -1028,7 +1037,7 @@ a {
   line-height: 24px;
   margin: 0;
   padding: 0;
-  padding-bottom: 22px;
+  padding-bottom: 23px;
   letter-spacing: 0.05px;
   color: black;
 }
@@ -1324,7 +1333,7 @@ button .delivery-button:focus.delivery, button .warranty-button:focus .warranty,
 
 .first-footer-wrapper {
   background-color: #32425c;
-  padding-bottom: 31px;
+  padding-bottom: 29px;
 }
 
 .first-footer, .second-footer {
@@ -1420,7 +1429,7 @@ button .delivery-button:focus.delivery, button .warranty-button:focus .warranty,
 }
 
 .footer-links-nav {
-  margin-top: 42px;
+  margin-top: 38px;
   padding: 0;
 }
 
